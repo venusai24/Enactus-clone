@@ -17,8 +17,8 @@ function Vikalp() {
       
       <div className="container">
         <header className="major">
-          <h1 id="Headings">Project Medha</h1>
-          <h3 id="Subheading">Collaborating with NGOs</h3>
+          <h1 id="Headings">Project Vikalp</h1>
+          <h3 id="Subheading">Opportunity for All</h3>
         </header>
 
         <section id="content">

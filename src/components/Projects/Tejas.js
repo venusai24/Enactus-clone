@@ -17,8 +17,8 @@ function Tejas() {
       
       <div className="container">
         <header className="major">
-          <h1 id="Headings">Project Medha</h1>
-          <h3 id="Subheading">Collaborating with NGOs</h3>
+          <h1 id="Headings">Project Tejas</h1>
+          <h3 id="Subheading">A sustainable initiative</h3>
         </header>
 
         <section id="content">
