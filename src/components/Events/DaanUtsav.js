@@ -9,7 +9,7 @@ import img6 from '../eventimages/DaanUtsav/Copy of IMG_20240113_111325.JPEG';
 import img7 from '../eventimages/DaanUtsav/D70C9188-FD8E-482D-998B-DFB332533B55.JPG';
 import img8 from '../eventimages/DaanUtsav/BBC34748-2D9B-4590-B183-C8993C6D879F.JPG';
 import './DaanUtsav.css';
-
+import Logos from "../Home/Logos";
 const DaanUtsav = () => {
   return (
     <div className="bg-black">
@@ -98,6 +98,7 @@ const DaanUtsav = () => {
       </div>
     </div>
     </div>
+    <Logos/>
     </div>
   );
 };

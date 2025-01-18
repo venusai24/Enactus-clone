@@ -7,6 +7,7 @@ import img5 from "../eventimages/impactus/Image6.jpg";
 import img6 from "../eventimages/impactus/Image5.jpg";
 import './Impactus.css';  
 import Realnavbar from "../Realnavbar";
+import Logos from "../Home/Logos";
 
 const Impactus = () => {
   return (
@@ -78,6 +79,7 @@ const Impactus = () => {
           </div>
         </div>
       </div>
+        <Logos/>
     </div>
   );
 };

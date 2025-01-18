@@ -6,6 +6,7 @@ import img3 from "../eventimages/NGOVisitImages/image3.JPG";
 import img4 from "../eventimages/NGOVisitImages/image4.JPG";
 import img5 from "../eventimages/NGOVisitImages/image5.JPG";
 import './NGOVisit.css';
+import Logos from "../Home/Logos";
 
 const NGOVisit = () => {
   return (
@@ -92,6 +93,7 @@ const NGOVisit = () => {
       </div>
     </div>
     </div>
+    <Logos/>
     </div>
 
   );

@@ -7,7 +7,7 @@ import img3 from "../eventimages/Atmostalkimages/DSC_0005.JPG";
 import img4 from "../eventimages/Atmostalkimages/06FC8145-C711-4627-BCF6-71E202FFA467.JPG"
 import img5 from "../eventimages/Atmostalkimages/D8259100-A440-4AD8-AB97-CE8DC1FFFB66.JPG"
 import img6 from "../eventimages/Atmostalkimages/DSC_0009.JPG";
-
+import Logos from "../Home/Logos";
 function AtmosTalk() {
   return (
     <div className="bg-black">
@@ -71,6 +71,7 @@ function AtmosTalk() {
           </div>
         </div>
         </div>
+        <Logos/>
         </div>
   );
 }

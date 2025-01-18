@@ -1,6 +1,7 @@
 import React from "react";
 import "./VikalpProject.css";
 import Realnavbar from "../Realnavbar";
+import Logos from "../Home/Logos";
 
 
 function Vikalp() {
@@ -25,12 +26,19 @@ function Vikalp() {
             Sorry, your browser does not support CSS Grid. 😅
           </div>
           <section className="section">
+          
             <div style={{ maxWidth: 'fit-content', marginLeft: 'auto', marginRight: 'auto', display: 'grid' }}>
               <iframe
-                src="https://drive.google.com/file/d/1wkrDJa6uvstVsyjxp38-KWD_G-xbWB8E/preview"
+                src="https://drive.google.com/file/d/12b4wBXg6TGLmvx3RUrKcnUg40edT1tZU/preview"
                 id="video"
                 allow="autoplay"
-                title="Project Medha Video"
+                title="Project Vikalp Video"
+                style={{
+                  width: '80vw', 
+                  aspectRatio: '16 / 9',
+                  border: 'none', 
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                }}
               />
             </div>
           </section>
@@ -40,6 +48,7 @@ function Vikalp() {
     </div>
         </div>
         </div>
+        <Logos />
         </div>
   );
 }

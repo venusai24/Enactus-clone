@@ -194,11 +194,7 @@ html {
   padding: 2rem;
 }
 
-#video{
-  width:1280px;
-  height:960px;
-  z-index:10;
- }
+
 
 @media screen and (max-width: 1250px) {
 #video{

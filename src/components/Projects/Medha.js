@@ -1,7 +1,7 @@
 import React from "react";
 import "./VikalpProject.css";
 import Realnavbar from "../Realnavbar";
-
+import Logos from "../Home/Logos";
 
 function Medha() {
   return (
@@ -32,6 +32,12 @@ function Medha() {
                 id="video"
                 allow="autoplay"
                 title="Project Medha Video"
+                style={{
+                  width: '80vw', 
+                  aspectRatio: '16 / 9',
+                  border: 'none', 
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                }}
               />
             </div>
           </section>
@@ -41,6 +47,7 @@ function Medha() {
     </div>
         </div>
         </div>
+        <Logos/>
         </div>
   );
 }
